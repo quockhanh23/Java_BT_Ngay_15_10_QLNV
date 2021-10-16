@@ -67,16 +67,13 @@ public class QuanLyNhanVien implements QuanLy<NhanVien> {
         ql.them(nv3);
         ql.them(nv4);
         ql.them(nv5);
-
+        ql.print();
+        NhanVien nv6 = new NhanVien(6, "khánh6", 16, 10);
+        ql.sua(ql.timKiem(3),nv6 );
         ql.print();
         System.out.println(ql.timKiem(3));
 
         ql.xoa(5);
-
-
-
-
-
 
     }
 }
